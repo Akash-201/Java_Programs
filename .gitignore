@@ -1,0 +1,58 @@
+# Eclipse Core
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~.nib
+*.orig
+*.rej
+# Temporary files
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Git Directories
+.git/
+
+# Eclipse Project Settings
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+
+# IDE specific
+.vscode/
+.idea/
+.DS_Store
+
+# Maven Specific
+target/
+release/
+dependency-reduced-pom.xml
+build.log
+
+# Gradle specific
+.gradle/
+build/
+
+# Logs
+*.log
+
+# Other system files
+Thumbs.db
+Desktop.ini
+
+# Specific to the OS
+# MacOS
+*.DS_Store
+
+# Windows
+*.Thumbs.db
