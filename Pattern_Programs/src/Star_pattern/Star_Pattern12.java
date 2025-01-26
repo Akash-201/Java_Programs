@@ -15,7 +15,7 @@ public class Star_Pattern12
 	 {
 		 for(int i=1;i<=n;i++)
 		 {
-			  for(int j=5;j>=i;j--)
+			  for(int j=n;j>=i;j--)
 	            {
 	                System.out.print(" ");
 	            }
