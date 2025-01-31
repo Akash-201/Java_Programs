@@ -1,6 +1,7 @@
 package Arrays;
 
-// selection sort
+// selection sort 
+// increasing order
 
 public class Sort_Array
 {
@@ -15,7 +16,6 @@ public class Sort_Array
 		{
 			for(int j=i+1;j<arr.length;j++)
 			{
-				
 				if(arr[i]>arr[j])
 				{
 					int temp=arr[i];
@@ -33,7 +33,7 @@ public class Sort_Array
 	}
 	public static void main(String[] args) 
 	{
-		int[] arr= {2,4,9,1,5,3,8,7};
+		int[] arr= {2,10,4,9,1,5,3,8,7};
 		print(arr);
 		
 	}
