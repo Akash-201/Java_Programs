@@ -1,5 +1,7 @@
 package String.programs;
 
+// with special method means sort method
+
 import java.util.Arrays;
 
 public class Anagram_String
