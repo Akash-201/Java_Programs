@@ -25,8 +25,9 @@ public class Anagram_String1
 		
 //		return Arrays.equals(ch1, ch2);
 		
-		// convert array to string
 		
+		
+		// convert array to string
 		s1=new String(ch1);
 		s2=new String(ch2);
 		
