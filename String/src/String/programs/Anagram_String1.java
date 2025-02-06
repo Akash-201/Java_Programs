@@ -19,7 +19,6 @@ public class Anagram_String1
 		char[] ch2=s2.toCharArray();
 		
 		// sort Array
-		
 		sortArray(ch1);
 		sortArray(ch2);
 		
