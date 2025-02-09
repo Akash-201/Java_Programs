@@ -29,7 +29,6 @@ public class reverse_Toggle {
             afterReverse += reversedWord + " ";
         }
 
-        // Print final result (trim to remove extra space at the end)
         System.out.println(afterReverse.trim());
     }
 
