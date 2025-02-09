@@ -18,7 +18,10 @@ public class Toggle_Each_Word
 				 // Convert first letter to lowercase
 				String firstLetter=word.substring(0,1).toLowerCase();
 				
+			     // Convert remaining letters to uppercase
 				String afterConvertion=word.substring(1).toUpperCase();
+				
+				
 				afterToggle+=firstLetter+afterConvertion+" ";
 			}
 			
