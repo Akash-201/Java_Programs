@@ -12,7 +12,16 @@ public class Adding_Element
 		list.add(30);
 		list.add(40);
 		
+		// print all element
 		System.out.println(list);
+		
+		
+		
+		  // Print elements using a loop
+		for(int num : list)
+		{
+			System.out.println(num);
+		}
 		
 	}
 
