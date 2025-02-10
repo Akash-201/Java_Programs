@@ -12,7 +12,7 @@ public class Adding_Element
 		list.add(30);
 		list.add(40);
 		
-		// print all element
+		// print all elements
 		System.out.println(list);
 		
 		
