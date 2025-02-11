@@ -26,7 +26,7 @@ public class Insert_An_Element_At_A_Particular_Position
 		System.out.println(list);
 
 
-		//Inserting "AAA" at index 1
+		//Inserting "BBB" at index 3
 		list.add(3,"BBB");		
 
 		System.out.println(list);
