@@ -1,5 +1,11 @@
 package Important.programs;
 
+//An automorphic number is a number whose square ends in the same digits as the number itself
+
+//n = 76:
+//n2 = 5776
+//Last two digits of 5776 are 76, so 76 is automorphic.
+
 import java.util.Scanner;
 
 public class Automorphic_Number 
