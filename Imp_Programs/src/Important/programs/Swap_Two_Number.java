@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Swap_Two_Number 
 {
-	public static void swapTwonumber(int a,int b)
+	public static void swapTwoNumber(int a,int b)
 	{
 	   int temp=a;
 	   a=b;
@@ -22,7 +22,7 @@ public class Swap_Two_Number
 		int a=sc.nextInt();
 		System.out.println("Enter second number: ");
 		int b=sc.nextInt();
-		swapTwonumber(a, b);
+		swapTwoNumber(a, b);
 		
 	}
 
