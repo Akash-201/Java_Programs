@@ -16,7 +16,7 @@ public class Contain_Element
 	 
 	        list.add(1111.1111);
 	 
-	        //Checking whether list conatins '111.1111'
+	        //Checking whether list contains '111.1111'
 	 
 	        System.out.println(list.contains(111.1111));    //Output : false
 	    }

@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.LinkedList;
 
-public class Contain_Element
+public class Find_Index
 {
 	public static void main(String[] args)
 	{
@@ -17,9 +17,10 @@ public class Contain_Element
 		// print all elements
 		System.out.println(list);
 
-		 //Checking whether list contains or not
-	    System.out.println(list.contains("Java"));
+		 //find index of any element
+	    System.out.println(list.indexOf("Sql"));
 	   
 
 	}
+
 }
