@@ -1,4 +1,5 @@
 package LinkedList;
+//add an element or collection of elements at a specific position of a LinkedList
 
 import java.util.LinkedList;
 
