@@ -1,4 +1,5 @@
 package LinkedList;
+//retrieve but not remove the elements of a LinkedList from both the ends
 
 import java.util.LinkedList;
 
