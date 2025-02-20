@@ -1,6 +1,6 @@
 package Encapsulation;
 
-//Q: Create a class "BankAccount" with encapsulation
+//Question: Create a class "BankAccount" with encapsulation
 //Create a class BankAccount with private variables:
 //accountNumber (String)
 //balance (double)
