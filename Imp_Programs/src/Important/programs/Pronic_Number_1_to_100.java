@@ -1,5 +1,8 @@
 package Important.programs;
 
+//Pronic number is a number which is the product of two consecutive integers, 
+//that is, a number n is a product of x and (x+1). The task is to check and print Pronic Numbers in a range.
+
 import java.util.Scanner;
 
 public class Pronic_Number_1_to_100
