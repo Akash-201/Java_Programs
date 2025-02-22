@@ -1,5 +1,9 @@
 package Important.programs;
 
+//A number N called a jumping number if all the adjacent digits in N have an absolute difference of 1. 
+//Note that the difference between 9 and 0 is not considered as 1. 
+//Therefore, all single-digit number is considered as a jumping number.
+
 import java.util.Scanner;
 
 public class Largest_Jumping_Number
