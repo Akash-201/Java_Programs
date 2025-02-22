@@ -1,5 +1,7 @@
 package Important.programs;
 
+//A number is said to be a Peterson number if the sum of factorials of each digit of the number is equal to the number itself.
+
 import java.util.Scanner;
 
 public class Peterson_Number 
