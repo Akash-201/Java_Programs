@@ -1,5 +1,7 @@
 package Array;
 
+//  Efficient (O(N) time, O(1) space)
+
 import java.util.Arrays;
 
 public class ReverseArray 
@@ -8,18 +10,20 @@ public class ReverseArray
 	{
 		int start=0;
 		int end=arr.length-1;
-		
+
 		while(start<end)
 		{
+
+			// Swap elements
 			int temp=arr[start];
 			arr[start]=arr[end];
 			arr[end]=temp;
-			
+
 			start++;
 			end--;
 		}
-		
-		 System.out.println("Reversed Array: " + Arrays.toString(arr));
+
+		System.out.println("Reversed Array: " + Arrays.toString(arr));
 
 	}
 	public static void main(String[] args) {
