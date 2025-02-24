@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class RightSideRotate_K_Time 
 {
+	
+	// method to rotate array in left side by 1 times
+	
 	public static void rotateArray(int[] arr)
 	{
 		int lastIndex=arr[arr.length-1];
@@ -15,9 +18,13 @@ public class RightSideRotate_K_Time
 		arr[0]=lastIndex;
 	}
 
+	
+	// method to left rotate array by k times
+	
+	
 	public static void rotateArrarK_Times(int[] arr,int k)
 	{
-		k = k % arr.length; 
+		k = k % arr.length;  // Optimize for large k values
 
 		for(int i=1;i<=k;i++)
 		{
