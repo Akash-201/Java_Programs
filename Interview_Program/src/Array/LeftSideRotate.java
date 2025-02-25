@@ -19,6 +19,7 @@ public class LeftSideRotate
 		// Place the first element at the last position
 		arr[arr.length-1]=firstIndex;
 
+		// Print the rotated array
 		System.out.println(Arrays.toString(arr));
 	}
 
