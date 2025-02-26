@@ -1,4 +1,7 @@
 package Array;
+// here use
+//selection sort 
+//increasing order
 
 import java.util.Arrays;
 
