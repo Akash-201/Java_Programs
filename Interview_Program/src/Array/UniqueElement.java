@@ -1,8 +1,10 @@
 package Array;
 
-public class DistinctElement 
+// unique elements appear exactly once
+
+public class UniqueElement 
 {
-	public static void distinctElement(int[] arr)
+	public static void uniqueElement(int[] arr)
 	{
 		for(int i=0;i<arr.length;i++)
 		{
@@ -23,7 +25,7 @@ public class DistinctElement
 	}
 	public static void main(String[] args) {
 		int[] arr= {4,6,3,6,6,3,7,9,4};
-		distinctElement(arr);
+		uniqueElement(arr);
 	}
 
 }
