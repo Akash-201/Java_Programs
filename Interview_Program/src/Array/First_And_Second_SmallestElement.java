@@ -1,5 +1,5 @@
 package Array;
-
+// if all elements are different
 public class First_And_Second_SmallestElement 
 {
 	public static void findFirstAndSecondSmallestElement(int[] arr)
