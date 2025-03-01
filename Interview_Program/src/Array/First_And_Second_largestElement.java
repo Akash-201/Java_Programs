@@ -1,4 +1,7 @@
 package Array;
+
+// if all elements are different
+
 // here use
 //selection sort 
 //increasing order
