@@ -1,6 +1,6 @@
 package Arrays;
 
-// second largest element in an array
+// second largest element in an array (if all elements are differents)
 
 public class Second_Largest_Element 
 {
