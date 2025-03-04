@@ -1,5 +1,7 @@
 package String;
 
+//converts all uppercase letters to lowercase and all lowercase letters to uppercase
+
 public class ConvertUpperLower 
 {
 	public static void convertUpperLower(String str)
