@@ -1,5 +1,7 @@
 package String;
 
+// with the help of special method(sort)
+
 import java.util.Arrays;
 
 public class AnagramString 
