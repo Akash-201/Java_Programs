@@ -1,6 +1,6 @@
 package String;
 
-
+//Reversing each word in the string
 
 public class ReverseEachWord
 {
