@@ -1,5 +1,7 @@
 package String;
 
+//The most frequent character in a string is the character that appears the highest number of times in that string.
+
 public class MostFrequentCharacter 
 {
 	public static void mostFrequentCharacter(String str)
