@@ -2,7 +2,7 @@ package NumberPrograms;
 
 import java.util.Scanner;
 
-public class EvenOdd 
+public class EvenOdd1
 {
 	public static void checkEvenOdd(int n)
 	{
