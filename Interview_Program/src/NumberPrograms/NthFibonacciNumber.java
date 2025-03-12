@@ -19,14 +19,21 @@ public class NthFibonacciNumber
 			b=c;
 		}
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Scanner sc=new Scanner(System.in);
 		while(true)
 		{
-		System.out.print("Enter number: ");
-		int n=sc.nextInt();
-		nthFibonacciNumber(n);
+			System.out.print("Enter number: ");
+			int n=sc.nextInt();
+			if (n < 1) 
+			{
+				System.out.println("Please enter a positive integer.");
+			} else 
+			{
+				nthFibonacciNumber(n);
+			}
 		}
-	}
 
+	}
 }
