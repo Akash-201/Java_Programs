@@ -7,9 +7,9 @@ public class Nth_Fibonacci_Numbers
 	public static void print(int n)
 	{
 		int count=0;
-		int a=1;
+		int a=0;
 		int b=1;
-		for(int i=1;i<=n;i++)
+		for(int i=0;i<=n;i++)
 		{
 			
 			int c=a+b;
