@@ -7,7 +7,7 @@ public class FibonacciNumberInRange
 		int a=0;
 		int b=1;
 		
-		for(int i=0;a<=n;i++)
+		for(int i=1;a<=n;i++)
 		{
 			System.out.print(a+" ");
 			int c=a+b;
