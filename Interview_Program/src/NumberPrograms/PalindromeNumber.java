@@ -1,5 +1,7 @@
 package NumberPrograms;
 
+//A palindrome number is a number that reads the same forward and backward, such as 121 or 1331.
+
 import java.util.Scanner;
 
 public class PalindromeNumber 
