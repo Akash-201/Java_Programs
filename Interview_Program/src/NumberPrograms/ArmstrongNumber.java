@@ -3,6 +3,7 @@ package NumberPrograms;
 //An Armstrong number  is a number that is equal to the sum of its digits
 // each raised to the power of the number of digits.
 
+
 import java.util.Scanner;
 
 public class ArmstrongNumber {
