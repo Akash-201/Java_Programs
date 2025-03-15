@@ -1,5 +1,10 @@
 package NumberPrograms;
+
+//A "spy number" is a positive integer where the sum of its digits equals the product of its digits.
+
 import java.util.Scanner;
+
+
 public class SpyNumber 
 {
 	public static void checkSpyNumber(int n)
