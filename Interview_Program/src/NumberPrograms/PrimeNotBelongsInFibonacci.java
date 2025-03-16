@@ -31,13 +31,13 @@ public class PrimeNotBelongsInFibonacci
 		{
 			int c=a+b;
 			if(a==key)
-			return 1;
+				return 1;
 			a=b;
 			b=c;
 		}
 		return 0;
 	}
-	
+
 	public static int checkPrimeNotFibonacci(int num)
 	{
 		if(checkPrime(num)==1 && isFibonacci(num)==0)
@@ -46,10 +46,13 @@ public class PrimeNotBelongsInFibonacci
 		}
 		return 0;
 	}
-	
+
 	public static void main(String[] args)
 	{
-		System.out.println(checkPrimeNotFibonacci(21));
+		System.out.println(checkPrimeNotFibonacci(21)); // Expected output: 0
+		System.out.println(checkPrimeNotFibonacci(7));  // Expected output: 1
+		System.out.println(checkPrimeNotFibonacci(13)); // Expected output: 0
+		System.out.println(checkPrimeNotFibonacci(17)); // Expected output: 1
 	}
 
 }
