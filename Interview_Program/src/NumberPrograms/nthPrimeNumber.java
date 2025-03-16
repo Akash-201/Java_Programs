@@ -1,6 +1,11 @@
 package NumberPrograms;
 // WAP to print the nth prime number after a given number m
 // example: given prime number m=3 and n=5 . the program should print the 5th prime number after 3 
+// given input
+// 3
+// 5
+
+// expected output : 17
 
 public class nthPrimeNumber
 {
