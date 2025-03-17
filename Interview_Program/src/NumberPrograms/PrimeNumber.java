@@ -1,4 +1,5 @@
 package NumberPrograms;
+import java.util.Scanner;
 
 public class PrimeNumber
 {
@@ -23,7 +24,14 @@ public class PrimeNumber
 	}
 	public static void main(String[] args)
 	{
-		checkPrime(14);
+		Scanner sc=new Scanner(System.in);
+		while(true)
+		{
+			System.out.print("Enter any number: ");
+			int n=sc.nextInt();
+			checkPrime(n);
+		}
+		
 	}
 
 }
