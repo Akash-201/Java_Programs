@@ -4,7 +4,6 @@ package NumberPrograms;
 // given input
 // 3
 // 5
-
 // expected output : 17
 
 public class nthPrimeNumber
