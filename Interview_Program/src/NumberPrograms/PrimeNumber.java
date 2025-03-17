@@ -27,9 +27,16 @@ public class PrimeNumber
 		Scanner sc=new Scanner(System.in);
 		while(true)
 		{
-			System.out.print("Enter any number: ");
+			System.out.print("Enter any number:");
 			int n=sc.nextInt();
+			if(n>1)
+			{
 			checkPrime(n);
+			}
+			else
+			{
+				System.out.println("Number should be greater than 1");
+			}
 		}
 		
 	}
