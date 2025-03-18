@@ -1,4 +1,5 @@
 package NumberPrograms;
+// swaps two numbers without using a third variable  
 
 public class SwapTwoNumber2
 {
@@ -12,7 +13,7 @@ public class SwapTwoNumber2
 		
 	}
 	public static void main(String[] args) {
-		swapTwoNumber(10,20);
+		swapTwoNumber(5,8);
 	}
 
 }
