@@ -1,4 +1,5 @@
 package NumberPrograms;
+//swaps two numbers without using a third variable  
 
 public class SwapTwoNumber3 
 {
