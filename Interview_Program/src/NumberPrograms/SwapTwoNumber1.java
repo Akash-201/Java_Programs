@@ -1,7 +1,7 @@
 package NumberPrograms;
 // using third variable
 
-public class SwapTwoNumber 
+public class SwapTwoNumber1 
 {
 	public static void swapNumber(int a,int b)
 	{
