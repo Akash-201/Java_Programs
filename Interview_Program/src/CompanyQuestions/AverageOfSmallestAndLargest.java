@@ -1,4 +1,6 @@
 package CompanyQuestions;
+
+// add(minElement + maxElement)/2 to average
 // input: [7,8,3,4,15,13,4,1]
 // output: 5.5
 
