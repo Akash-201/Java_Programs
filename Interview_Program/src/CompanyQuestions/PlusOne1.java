@@ -9,7 +9,7 @@ import java.util.Arrays;
 // output: [4,3,2,2]
 // if last number is 9 then make its 0
 
-public class PlusOne
+public class PlusOne1
 {
 	public static void plusOne(int[] arr)
 	{
