@@ -21,7 +21,7 @@ public class RemoveDuplicateFromSortedArray
 			}
 			
 		}
-		System.out.println("\n"+count);
+		System.out.println("\nAfter removing duplicate ,size of array is: "+count);
 		
 	}
 	public static void main(String[] args)
