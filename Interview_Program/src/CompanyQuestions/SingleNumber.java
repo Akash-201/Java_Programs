@@ -24,7 +24,9 @@ public class SingleNumber
     public static void main(String[] args)
     {
     	int[] arr= {4,1,2,1,2};
+    	int[] arr1= {1};
     	findSingleNumber(arr);
+    	findSingleNumber(arr1);
     }
 
 }
