@@ -25,8 +25,10 @@ public class SingleNumber
     {
     	int[] arr= {4,1,2,1,2};
     	int[] arr1= {1};
+    	int[] arr2= {2,2,8};
     	findSingleNumber(arr);
     	findSingleNumber(arr1);
+    	findSingleNumber(arr2);
     }
 
 }
