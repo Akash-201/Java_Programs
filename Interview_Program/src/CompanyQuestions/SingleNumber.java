@@ -17,15 +17,16 @@ public class SingleNumber
 			}
 			if(arr[i]!=-1 && count==1)
 			{
-				System.out.println(arr[i]);
+				System.out.print(arr[i]+" ");
 			}
 		}
+		System.out.println();
 	}
     public static void main(String[] args)
     {
     	int[] arr= {4,1,2,1,2};
     	int[] arr1= {1};
-    	int[] arr2= {2,2,8};
+    	int[] arr2= {2,2,8,9};
     	findSingleNumber(arr);
     	findSingleNumber(arr1);
     	findSingleNumber(arr2);
