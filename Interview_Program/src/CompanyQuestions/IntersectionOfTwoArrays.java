@@ -1,4 +1,9 @@
 package CompanyQuestions;
+//input: arr1=[1,2,2,1], arr2=[2,2]
+//output: [2,2]
+
+//input: arr1=[4,9,5], arr2=[9,4,9,8,4]
+//output: [4,9]
 
 
 import java.util.Arrays;
