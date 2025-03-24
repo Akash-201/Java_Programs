@@ -22,7 +22,11 @@ public class ContainDuplicate
 	public static void main(String[] args)
 	{
 		int[] arr= {1,2,3,1};
-		System.out.println(checkDuplicate(arr));
+		int[] arr1= {1,2,3,4};
+		int[] arr2= {1,1,1,3,3,4,3,2,4,2};
+		System.out.println(checkDuplicate(arr));  // true
+		System.out.println(checkDuplicate(arr1)); // false
+		System.out.println(checkDuplicate(arr2)); // true
 	}
 
 }
