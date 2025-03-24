@@ -1,5 +1,6 @@
 package CompanyQuestions;
-
+// Given an integer array arr, return true if any value appears at least twice in the array,
+//and return false if every element is distinct
 
 public class ContainDuplicate
 {
