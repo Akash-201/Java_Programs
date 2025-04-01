@@ -18,16 +18,19 @@ public class FindDuplicateNumber
 			}
 			if(count>1 && arr[i]!=-1)
 			{
-				System.out.println(arr[i]);
+				System.out.print(arr[i]+" ");
 			}
 			
 		}
+		System.out.println();
 		
 	}
 	public static void main(String[] args)
 	{
-		int[] arr= {1,3,4,2,2,4,2};
+		int[] arr= {1,3,4,2,2};
+		int[] arr1= {3,1,3,4,2};
 		findDuplicateNumber(arr);
+		findDuplicateNumber(arr1);
 	}
 
 }
