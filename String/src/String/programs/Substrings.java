@@ -1,4 +1,6 @@
 package String.programs;
+//find all possible substrings of a given String 
+
 
 public class Substrings
 {
