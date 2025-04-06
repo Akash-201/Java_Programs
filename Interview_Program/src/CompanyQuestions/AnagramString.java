@@ -1,5 +1,8 @@
 package CompanyQuestions;
 
+//with special method means sort method
+
+
 import java.util.Arrays;
 
 public class AnagramString
