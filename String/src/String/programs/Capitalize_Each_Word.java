@@ -2,8 +2,6 @@ package String.programs;
 
 // input:- this is java
 // output:- This Is Java
-
-
 public class Capitalize_Each_Word 
 {
 	public static void capitalWord(String s1)
@@ -20,7 +18,6 @@ public class Capitalize_Each_Word
 				String remainingSame=word.substring(1).toLowerCase();
 				str+=capitalFirstLetter+remainingSame+" ";
 			}
-			
 		}
 		str=str.trim();  // remove extra space
 		System.out.println("Original String: "+s1);
@@ -31,6 +28,4 @@ public class Capitalize_Each_Word
 		String s1=" this is java ";
 		capitalWord(s1);
 	}
-	
-
 }
