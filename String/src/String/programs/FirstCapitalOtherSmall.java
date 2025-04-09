@@ -1,5 +1,7 @@
 package String.programs;
 
+// convert first letter in Capital and other in small
+
 public class FirstCapitalOtherSmall
 {
 	public static void convert(String str)
