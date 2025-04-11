@@ -1,4 +1,5 @@
 package String.programs;
+// count total numbers of vowels and consonants in a String
 
 public class CountVowelsAndConsonants 
 {
