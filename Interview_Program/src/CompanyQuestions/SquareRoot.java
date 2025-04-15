@@ -1,5 +1,8 @@
 package CompanyQuestions;
 
+// given a non-negative integer num, return the square root of num , rounded down to the nearest integer. the returned
+// integer should be non negative as well
+
 import java.util.Scanner;
 
 public class SquareRoot 
