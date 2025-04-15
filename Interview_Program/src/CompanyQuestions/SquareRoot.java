@@ -3,6 +3,12 @@ package CompanyQuestions;
 // given a non-negative integer num, return the square root of num , rounded down to the nearest integer. the returned
 // integer should be non negative as well
 
+// input: num=4
+// output: 2
+
+//input: num=8
+//output: 2
+
 import java.util.Scanner;
 
 public class SquareRoot 
