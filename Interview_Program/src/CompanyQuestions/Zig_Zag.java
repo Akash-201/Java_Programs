@@ -16,7 +16,7 @@ public class Zig_Zag
         {
             if (j % 2 == 0)
             {
-               
+            	 // Even column index: top to bottom
                 for (int i = 0; i < arr.length; i++)
                 {
                     System.out.print(arr[i][j] + " ");
@@ -24,7 +24,7 @@ public class Zig_Zag
             }
             else
             {
-              
+            	  // Odd column index: bottom to top
                 for (int i = arr.length - 1; i >= 0; i--)
                 {
                     System.out.print(arr[i][j] + " ");
