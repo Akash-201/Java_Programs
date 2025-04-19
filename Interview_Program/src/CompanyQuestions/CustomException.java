@@ -3,14 +3,15 @@ package CompanyQuestions;
 
 class UnderAgeException extends Exception
 {
-	 UnderAgeException() 
+	UnderAgeException() 
 	{
+		// its call parent class constructor  means its provide description of default exception handler
 		super("You are under Age");
 	}
-	 UnderAgeException(String message)
-	 {
-		 super(message);
-	 }
+	UnderAgeException(String message)
+	{
+		super(message);
+	}
 }
 
 public class CustomException
