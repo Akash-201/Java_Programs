@@ -1,5 +1,7 @@
 package CompanyQuestions;
 
+// custom exception or user define exception
+
 
 class UnderAgeException extends Exception
 {
@@ -18,7 +20,7 @@ public class CustomException
 {
 	public static void main(String[] args)
 	{
-		int age=13;
+		int age=14;
 		try
 		{
 			if(age<18)
