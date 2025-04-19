@@ -7,17 +7,17 @@ class UnderAgeException extends Exception
 	{
 		super("You are under Age");
 	}
-//	 UnderAgeException(String message)
-//	 {
-//		 super(message);
-//	 }
+	 UnderAgeException(String message)
+	 {
+		 super(message);
+	 }
 }
 
 public class CustomException
 {
 	public static void main(String[] args)
 	{
-		int age=17;
+		int age=13;
 		try
 		{
 			if(age<18)
