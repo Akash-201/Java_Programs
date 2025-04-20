@@ -4,6 +4,7 @@ public class FirstCharacterCapital
 {
 	public static void convertFirstCharacterCapital(String s1)
 	{
+	
 		String[] s2=s1.split(" ");
 		String str="";
 		
@@ -17,6 +18,7 @@ public class FirstCharacterCapital
 				str=str+firstCharacter+remainingSame+" ";
 			}
 		}
+		str=str.trim(); // remove extra space
 		System.out.println("Original String: "+s1);
 		System.out.println("After Capitalize First Letter: "+str);
 		
