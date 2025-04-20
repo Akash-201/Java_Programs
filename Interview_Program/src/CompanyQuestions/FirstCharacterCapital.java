@@ -1,5 +1,8 @@
 package CompanyQuestions;
 
+// input: this is java
+// output: This Is Java
+
 public class FirstCharacterCapital
 {
 	public static void convertFirstCharacterCapital(String s1)
