@@ -1,4 +1,5 @@
 package CompanyQuestions;
+// check given String are Palindrome or not
 
 public class PalindromeString
 {
