@@ -1,4 +1,6 @@
 package CompanyQuestions;
+//check given Number are Palindrome or not
+
 
 public class PalindromeNumber
 {
