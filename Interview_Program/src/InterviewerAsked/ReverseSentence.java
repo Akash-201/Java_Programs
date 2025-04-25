@@ -1,5 +1,8 @@
 package InterviewerAsked;
 
+// input: This is java
+// output: java is This
+
 public class ReverseSentence 
 {
     public static void reverseSentence(String s1)
