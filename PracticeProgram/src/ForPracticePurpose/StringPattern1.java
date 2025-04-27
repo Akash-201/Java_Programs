@@ -9,8 +9,8 @@ public class StringPattern1
 		char[] ch=str.toCharArray();
 		for(int i=0;i<ch.length;i++) 
 		{
-			if((ch[i]>=97 && ch[i]<=122) || (ch[i]>=65 && ch[i]<=90))
-		
+//			if((ch[i]>=97 && ch[i]<=122) || (ch[i]>=65 && ch[i]<=90))
+			if(Character.isLetter(ch[i]))
 			{
 				System.out.print(ch[i]);
 				
