@@ -1,6 +1,7 @@
 package ForPracticePurpose;
 
-
+//input: aabbbcccc
+//output: a2b3c4
 
 public class StringPattern2 
 {
@@ -27,7 +28,7 @@ public class StringPattern2
 	}
 	public static void main(String[] args)
 	{
-		String str="aaabbcaaa";
+		String str="aabbbcccc";
 		pattern(str);
 	}
 
