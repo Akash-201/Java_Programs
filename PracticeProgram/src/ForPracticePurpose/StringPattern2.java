@@ -8,7 +8,7 @@ public class StringPattern2
 	public static void pattern(String str)
 	{
 		char[] ch=str.toCharArray();
-		for(int i=0;i<ch.length-1;i++)
+		for(int i=0;i<ch.length;i++)
 		{
 			if(ch[i]==' ')
 				continue;
@@ -28,7 +28,7 @@ public class StringPattern2
 	}
 	public static void main(String[] args)
 	{
-		String str="aabbbcccc";
+		String str="aabbbccccd";
 		pattern(str);
 	}
 
