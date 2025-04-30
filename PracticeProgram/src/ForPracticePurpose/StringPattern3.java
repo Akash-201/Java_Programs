@@ -1,6 +1,8 @@
 package ForPracticePurpose;
 
-
+//Input: "aaabbcdd"
+//Output: "a3b2cd2"
+//(Single characters appear as-is)
 
 public class StringPattern3
 {
