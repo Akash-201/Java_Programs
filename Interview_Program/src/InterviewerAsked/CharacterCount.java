@@ -1,5 +1,7 @@
 package InterviewerAsked;
 
+//You need to print - character name - count
+
 public class CharacterCount 
 {
 	public static void countCharacter(String str)
