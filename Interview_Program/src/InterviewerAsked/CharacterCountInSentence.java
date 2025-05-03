@@ -1,7 +1,6 @@
 package InterviewerAsked;
 
 //Task: Need to avoid single instance characters, spaces and it is case sensitive
-//
 //You need to print - character name - count
 
 public class CharacterCountInSentence 
