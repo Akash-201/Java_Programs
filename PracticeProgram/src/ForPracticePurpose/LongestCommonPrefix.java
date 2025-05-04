@@ -28,7 +28,7 @@ public class LongestCommonPrefix
 	}
 	public static void main(String[] args)
 	{
-		String[] arr = {"hello", "world"};
+		String[] arr = {"apple", "ape", "april"};
 		System.out.println(longestCommonPrefix(arr));
 		
 	}
