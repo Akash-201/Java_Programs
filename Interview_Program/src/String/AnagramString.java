@@ -1,6 +1,6 @@
 package String;
 
-// with the help of special method(sort)
+// with the help of special method(sort method)
 
 import java.util.Arrays;
 
