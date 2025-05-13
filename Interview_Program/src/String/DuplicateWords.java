@@ -1,5 +1,8 @@
 package String;
 
+//remove instances of words that are repeated more than once, 
+//but retain the first occurrence of any case-insensitive repeated word.
+
 public class DuplicateWords
 {
 	public static void removeDuplicateWords(String str1)
@@ -29,7 +32,7 @@ public class DuplicateWords
 	
 	public static void main(String[] args)
 	{
-		String str1="Hello hello Ab aB";
+		String str1="Sam went went to to to his business";
 		removeDuplicateWords(str1);
 	}
 
