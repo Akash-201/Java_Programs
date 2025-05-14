@@ -1,5 +1,7 @@
 package Array;
 
+//Sort an Array Without Using Built-in Methods
+
 import java.util.Arrays;
 
 public class SortArray 
@@ -22,7 +24,7 @@ public class SortArray
 	}
 	public static void main(String[] args)
 	{
-		int[] arr= {4,6,2,9,33,24,1,7,0,-8,6};
+		int[] arr= {4,6,2,9,33,24,1,7,0,-8};
 		sortArray(arr);
 	}
 
