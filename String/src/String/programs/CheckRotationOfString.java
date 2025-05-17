@@ -1,5 +1,7 @@
 package String.programs;
 
+//Check Rotation of String
+//Input: 'waterbottle', 'erbottlewat' => Output: true
 
 public class CheckRotationOfString 
 {
