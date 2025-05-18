@@ -1,5 +1,7 @@
 package String.programs;
 
+//Check Subsequence
+//Input: 'abc', 'ahbgdc' => Output: true
 
 public class CheckSubsequence 
 {
