@@ -1,6 +1,7 @@
 package String.programs;
 
-
+//Replace Spaces with %20
+//Input: 'Mr John Smith' => Output: 'Mr%20John%20Smith'
 
 public class ReplaceSpacesWithPercentage20 
 {
