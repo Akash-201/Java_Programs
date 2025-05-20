@@ -1,5 +1,6 @@
 package String;
 
+//Input: 'abc' => Output: 'a','ab','abc','b','bc','c'
 
 public class PrintAllSubstrings
 {
