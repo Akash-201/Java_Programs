@@ -1,5 +1,7 @@
 package String;
 
+// Print first character of every word in a string
+
 public class PrintFirstCharacter 
 {
 	public static void printFirstCharacter(String str)
