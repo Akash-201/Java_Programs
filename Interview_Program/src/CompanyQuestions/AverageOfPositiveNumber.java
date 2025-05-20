@@ -18,8 +18,8 @@ public class AverageOfPositiveNumber
 		}
 		if(count>0)
 		{
-			double average=sum/count;
-			System.out.println("Average of all positive number: "+average);
+			double average=(double)sum/count;
+			System.out.println("Average of all positive number is: "+average);
 		}
 		else 
 		{
