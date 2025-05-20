@@ -1,6 +1,6 @@
 package String;
 
-
+// remove vowels from a string
 
 public class RemoveVowels
 {
