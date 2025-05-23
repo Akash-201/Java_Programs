@@ -4,7 +4,6 @@ public class CommonElementInTwoArray
 {
 	public static void commonElement(int[] arr1,int[] arr2)
 	{
-		int[] newArr;
 		for(int i=0;i<arr1.length;i++)
 		{
 			for(int j=0;j<arr2.length;j++)
@@ -14,7 +13,7 @@ public class CommonElementInTwoArray
 					System.out.println(arr1[i]);
 					
 				}
-
+				
 			}
 		}
 	}
