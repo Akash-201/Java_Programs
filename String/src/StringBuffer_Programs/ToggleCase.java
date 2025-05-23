@@ -1,5 +1,7 @@
 package StringBuffer_Programs;
 
+//Toggle means reversing the case of each character of String (i.e., converting uppercase letters to lowercase and vice versa)
+
 public class ToggleCase 
 {
 	public static void afterToggle(String str)
