@@ -23,7 +23,8 @@ public class ToggleCase
 				answer.append(ch);
 			}
 		}
-		System.out.println(answer);
+		System.out.println("Before Toggle: "+str);
+		System.out.println("After Toggle: "+answer);
 	}
 	public static void main(String[] args)
 	{
