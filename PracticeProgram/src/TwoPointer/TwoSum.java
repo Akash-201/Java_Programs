@@ -1,7 +1,8 @@
 package TwoPointer;
 
 //Given a sorted array of integers and a target value, 
-
+//write a Java program to find the indices of the two numbers that add up to the target.
+//Use the two-pointer technique (since the array is sorted).
 
 public class TwoSum 
 {
