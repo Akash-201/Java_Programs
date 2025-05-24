@@ -1,5 +1,6 @@
 package TwoPointer;
 
+//Given a sorted array of integers and a target value, 
 
 
 public class TwoSum 
