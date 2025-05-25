@@ -15,7 +15,7 @@ public class PrintDuplicate
 				{
 					System.out.print(arr[i]+" ");
 					duplicate.add(arr[i]);
-//					break;
+					break;
 				}
 			}
 		}
