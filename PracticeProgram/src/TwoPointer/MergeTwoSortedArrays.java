@@ -8,9 +8,9 @@ public class MergeTwoSortedArrays
 	{
 		int[] newArr=new int[arr1.length+arr2.length];
 		
-		int i=0;
-		int j=0;
-		int k=0;
+		int i=0;  // pointer for arr1
+		int j=0;  // pointer for arr2
+		int k=0;  // pointer for newArr
 		
 		while(i<arr1.length && j<arr2.length)
 		{
