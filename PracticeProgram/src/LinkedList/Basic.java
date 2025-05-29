@@ -27,7 +27,15 @@ public class Basic
 		
 		Node temp=a;
 		
-		for(int i=1;i<=5;i++)
+		// if We know number of nodes
+//		for(int i=1;i<=5;i++)
+//		{
+//			System.out.print(temp.data+" ");
+//			temp=temp.next;
+//		}
+		
+		// if we don't know number of nodes
+		while(temp!=null)
 		{
 			System.out.print(temp.data+" ");
 			temp=temp.next;
