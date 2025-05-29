@@ -25,8 +25,14 @@ public class Basic
 		c.next=d;
 		d.next=e;
 		
+		Node temp=a;
 		
-		System.out.println(a.next.data);
+		for(int i=1;i<=5;i++)
+		{
+			System.out.print(temp.data+" ");
+			temp=temp.next;
+		}
+		
 		
 	}
 
