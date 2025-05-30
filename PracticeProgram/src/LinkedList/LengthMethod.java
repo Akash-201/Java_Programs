@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class Length
+public class LengthMethod
 {
 	
 	public static int length(Node head)
