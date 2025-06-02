@@ -25,7 +25,7 @@ public class CharacterCount
 	}
 	public static void main(String[] args)
 	{
-		String str="Akash is a software engineer";
+		String str="Hello World";
 		countCharacter(str);
 	}
 
