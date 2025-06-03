@@ -6,13 +6,18 @@ public class Print1toN_number
 {
 	public static void printNumber(int n)
 	{
+		
+		//base case
 		if(n==1)
 		{
 			System.out.println(n);
 			return;
 		}
 
+		// recursive work
 		printNumber(n-1);
+		
+		// self work
 		System.out.println(n);
 
 	}

@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Scanner;
+
 public class PrintN_to_1number
 {
 	public static void printNumber(int n)
@@ -19,7 +21,9 @@ public class PrintN_to_1number
 	}
 	public static void main(String[] args)
 	{
-		int n=10;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter any number: ");
+		int n=sc.nextInt();
 		printNumber(n);
 	}
 
