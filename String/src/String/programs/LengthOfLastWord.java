@@ -8,16 +8,19 @@ public class LengthOfLastWord
 
 		for(int i=s2.length-1;i>=0;i--)
 		{
-			int count=0;
-			String word=s2[i];
-			char[] ch=word.toCharArray();
-
-			for(int j=0;j<ch.length;j++)
+			if(!s2[i].equals(""))
 			{
-				count++;
+				int count=0;
+				String word=s2[i];
+				char[] ch=word.toCharArray();
+
+				for(int j=0;j<ch.length;j++)
+				{
+					count++;
+				}
+				System.out.println(count);
+				break;
 			}
-			System.out.println(count);
-			break;
 		}
 	}
 	public static void main(String[] args) 
