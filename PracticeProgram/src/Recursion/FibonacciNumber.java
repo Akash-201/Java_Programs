@@ -11,23 +11,29 @@ public class FibonacciNumber
 		{
 			return n;
 		}
-		
+
 		// recursive work
 		int prev=fibonacciNumber(n-1);
 		int prevPrev=fibonacciNumber(n-2);
-		
+
 		// self work
 		return prev+prevPrev;
-			
+
 	}
-	
+
 	public static void main(String[] args)
 	{
-		
-		
-		for(int i=0;i<=10;i++)
+		Scanner sc=new Scanner(System.in);
+		while(true)
 		{
-			System.out.println(fibonacciNumber(i));
+			System.out.print("Enter any number: ");
+			int n=sc.nextInt();
+
+			for(int i=0;i<=n;i++)
+			{
+				System.out.print(fibonacciNumber(i)+" ");
+			}
+			System.out.println();
 		}
 	}
 
