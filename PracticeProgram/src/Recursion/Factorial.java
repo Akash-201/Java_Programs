@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Scanner;
+
 public class Factorial
 {
 	public static int factorial(int n)
@@ -20,8 +22,13 @@ public class Factorial
 	}
 	public static void main(String[] args)
 	{
-		int n=5;
-		System.out.println(factorial(n));
+		Scanner sc=new Scanner(System.in);
+		while(true)
+		{
+			System.out.print("Enter any number: ");
+			int n=sc.nextInt();
+			System.out.println(factorial(n));
+		}
 	}
 
 }
