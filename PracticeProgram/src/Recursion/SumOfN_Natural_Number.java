@@ -6,7 +6,7 @@ public class SumOfN_Natural_Number
 	{
 		// base case
 		
-		if(n==1)
+		if(n==0)
 		{
 			return n;
 		}
