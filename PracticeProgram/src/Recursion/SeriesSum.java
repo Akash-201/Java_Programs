@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Scanner;
+
 //Given a number n, find the sum of natural numbers till n but with alternate signs
 // that means:-  1-2+3-4+5-6+7-8.......
 
@@ -30,7 +32,10 @@ public class SeriesSum
 	}
 	public static void main(String[] args)
 	{
-		System.out.println(seriesSum(10));
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter any number: ");
+		int n=sc.nextInt();
+		System.out.println(seriesSum(n));
 	}
 	
 
