@@ -1,5 +1,7 @@
 package Important.programs;
 
+//Efficient Iterative GCD (Euclidean Algorithm)
+
 public class GCD3 
 {
 	public static int findGCD(int x,int y)
