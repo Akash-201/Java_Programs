@@ -1,5 +1,7 @@
 package Important.programs;
 
+//Brute Force approch
+
 public class GCD2 
 {
 	public static int findGCD(int n,int m)
