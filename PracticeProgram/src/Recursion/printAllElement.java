@@ -4,11 +4,14 @@ public class printAllElement
 {
 	public static void printElement(int[] arr,int idx)
 	{
+		// base case
 		if(idx==arr.length)
 			return;
 		
+		// self work
 		System.out.print(arr[idx]+" ");
 		
+		// recursive work - sub problem
 		printElement(arr, idx+1);
 		
 	}
