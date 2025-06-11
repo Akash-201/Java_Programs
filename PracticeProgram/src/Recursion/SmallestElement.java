@@ -11,6 +11,7 @@ public class SmallestElement
 		// recursive work
 		int ans= smallElement(arr, idx+1);
 		
+		// self work
 		return Math.min(arr[idx], ans);
 	}
 	
