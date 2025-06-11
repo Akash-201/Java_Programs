@@ -5,12 +5,12 @@ public class SumOfElement
 	public static int sumOfElement(int[] arr,int idx)
 	{
 		// base case
-		if(idx==arr.length-1)
-			return arr[idx];
+		if(idx==arr.length)
+			return 0;
 
 		//recursive work
-		int sum=0;
-		sum=sum+sumOfElement(arr, idx+1);
+		
+		int sum=sumOfElement(arr, idx+1);
 
 		// self work
 		return sum+arr[idx];
