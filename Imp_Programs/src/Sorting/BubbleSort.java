@@ -19,7 +19,6 @@ public class BubbleSort
 					flag=1;
 				}
 			}
-
 			//If no swapping occurs in a round, the array is already sorted, and the loop breaks early for better performance.
 			if(flag==0)
 			{
