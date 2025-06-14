@@ -21,21 +21,18 @@ public class MergeSort
 		int[] left=new int[n1];
 		int[] right=new int[n2];
 
-		int i, j, k;
 
 		// these two for loop for storing arr with two different sorted array
-		for(i=0;i<n1;i++)
+		for(int i=0;i<n1;i++)
 		{
 			left[i]=arr[start+i]; 
 		}
-		for(j=0;j<n2;j++)
+		for(int j=0;j<n2;j++)
 		{
 			right[j]=arr[mid+1+j]; 
 		}
 
-		i=0;
-		j=0;
-		k=start;
+		 int i = 0, j = 0, k = start;
 
 		while(i< n1 && j<n2)
 		{
