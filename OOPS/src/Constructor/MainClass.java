@@ -5,9 +5,10 @@ public class MainClass
 	public static void main(String[] args)
 	{
 		Student s1=new Student();
-//		s1.studentId=101;
-//		s1.studentCity="Patna";
-//		s1.studentName="Rupesh";
+		Student s2=new Student(101,"Rupesh","Patna");
+		System.out.println(s2.studentId);
+		System.out.println(s2.studentName);
+		System.out.println(s2.studentCity);
 		
 	}
 
