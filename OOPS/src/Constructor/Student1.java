@@ -1,16 +1,16 @@
 package Constructor;
 
-public class Student 
+public class Student1
 {
 	int studentId;
 	String studentName;
 	String studentCity;
 	
-	public Student()
+	public Student1()
 	{
 		System.out.println("Non-Parameterized Constructer");
 	}
-	public Student(int studentId,String studentName,String studentCity)
+	public Student1(int studentId,String studentName,String studentCity)
 	{
 		
 		System.out.println("Parameterized Constructor");
