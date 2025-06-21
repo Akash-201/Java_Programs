@@ -1,5 +1,7 @@
 package Inheritance;
 
+//Multilevel Inheritance
+
 class GrandFather
 {
 	String land="10 Acre";
@@ -20,6 +22,7 @@ class Father extends GrandFather
 	@Override
 	public void hobby()
 	{
+		super.hobby();
 		System.out.println("Travelling and Singing");
 	}
 	
@@ -32,6 +35,7 @@ public class Child extends Father
 	@Override
 	public void hobby()
 	{
+		super.hobby();
 		System.out.println("Travelling, Dancing, Reading...");
 	}
 	
@@ -39,6 +43,7 @@ public class Child extends Father
 	{
 		Child c=new Child();
 		c.hobby();
+		System.out.println(c.land);
 		
 	}
 	
