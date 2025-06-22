@@ -1,5 +1,7 @@
 package Inheritance;
 
+//Multiple Inheritance
+
 interface A
 {
 	default void display()
@@ -18,6 +20,7 @@ interface B
 
 class C implements A,B
 {
+	@Override
 	public void display()
 	{
 		A.super.display();
