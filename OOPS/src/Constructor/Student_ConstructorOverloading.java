@@ -16,6 +16,6 @@ public class Student_ConstructorOverloading
 		this.studentId=id;
 		this.studentName=name;
 	}
-	
-
 }
+
+// main class name is MainClass2
