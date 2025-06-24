@@ -1,4 +1,4 @@
-package Abstraction;
+package AbstractionAndInterface;
 
 abstract  class Parent
 {
