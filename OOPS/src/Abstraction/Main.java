@@ -2,12 +2,14 @@ package Abstraction;
 
 abstract  class Parent
 {
+	// concrete/complete method
 	public void calculate()
 	{
 		System.out.println("Concrete Method");
 	}
 
-	abstract public void launch();
+	// abstract method
+	abstract void launch();
 }
 
 class Child extends Parent 
