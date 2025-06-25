@@ -1,5 +1,7 @@
 package Polymorphism;
 
+// CompileTime Polymorphism // Static binding
+
 class Student
 {
 	public void read()
@@ -12,8 +14,6 @@ class Student
 		System.out.println("Book Name is "+bookName);
 	}
 }
-
-
 
 public class CompileTimePoly 
 {
