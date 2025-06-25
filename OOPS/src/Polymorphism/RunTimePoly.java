@@ -1,5 +1,7 @@
 package Polymorphism;
 
+// RunTime polymorphism /Dynamic Polymorphism
+
 class person
 {
 	public void showDetails()
