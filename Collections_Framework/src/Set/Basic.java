@@ -1,6 +1,7 @@
 package Set;
 
 import java.util.HashSet;
+import java.util.TreeSet;
 
 public class Basic
 {
@@ -14,7 +15,11 @@ public class Basic
 		set.add(45.45);
 		
 		
-		System.out.println(set);
+		System.out.println("HashSet "+set);
+		
+		TreeSet<Double> tset=new TreeSet<>();
+		tset.addAll(set);
+		System.out.println("TreeSet "+tset);
 		
 	}
 
