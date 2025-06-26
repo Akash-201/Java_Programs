@@ -29,6 +29,8 @@ public class Basic
 		names.add("Rupesh");
 		
 		System.out.println(names);
+		System.out.println(names.get(1));
+		
 	}
 
 }
