@@ -28,7 +28,7 @@ public class Basic
 		names.add("Rahul");
 		names.add("Rupesh");
 		
-		System.out.println(names);
+		System.out.println("ArrayList "+names);
 		System.out.println(names.get(1));
 		
 		// Un Type safe
@@ -40,7 +40,12 @@ public class Basic
 		list.add(234.54);
 		list.add(true);
 		
-		System.out.println(list);
+		System.out.println("Linkedist "+list);
+		
+		
+		Vector<String> vector = new Vector<>();
+		vector.addAll(names);
+		System.out.println("Vector "+vector);
 		
 	}
 
