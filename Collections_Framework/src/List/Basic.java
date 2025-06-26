@@ -1,6 +1,6 @@
 package List;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Basic 
 {
@@ -30,6 +30,17 @@ public class Basic
 		
 		System.out.println(names);
 		System.out.println(names.get(1));
+		
+		// Un Type safe
+		
+		LinkedList list=new LinkedList();
+		
+		list.add("Sachin");
+		list.add(100);
+		list.add(234.54);
+		list.add(true);
+		
+		System.out.println(list);
 		
 	}
 
