@@ -1,9 +1,10 @@
 package Generics;
-class printer
+
+class Printer
 {
 	Integer thingToPrint;
 	
-	public printer(Integer thingToPrint)
+	public Printer(Integer thingToPrint)
 	{
 		this.thingToPrint=thingToPrint;
 	}
@@ -17,7 +18,7 @@ public class GenericsExample
 {
 	public static void main(String[] args) 
 	{
-		printer printer=new printer(12934);
+		Printer printer=new Printer(1234);
 		printer.print();
 		
 	}
