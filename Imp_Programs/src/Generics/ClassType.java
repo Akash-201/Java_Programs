@@ -13,7 +13,6 @@ class AllPrinter<T>
 	{
 		System.out.println(thingToPrint);
 	}
-
 }
 
 public class ClassType 
