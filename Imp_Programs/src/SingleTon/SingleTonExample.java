@@ -8,7 +8,7 @@ class Samosa
 		
 	}
 	
-	// lazy way to creating single object 
+	// lazy way to creating singleton object 
 	public static Samosa getSamosa()
 	{
 		if(samosa==null)
@@ -28,7 +28,6 @@ public class SingleTonExample
 		
 		Samosa samosa2=Samosa.getSamosa();
 		System.out.println(samosa2.hashCode());
-		
 		
 		
 	}
