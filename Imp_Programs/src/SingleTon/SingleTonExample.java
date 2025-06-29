@@ -8,6 +8,7 @@ class Samosa
 		
 	}
 	
+	// lazy way to creating single object 
 	public static Samosa getSamosa()
 	{
 		if(samosa==null)
