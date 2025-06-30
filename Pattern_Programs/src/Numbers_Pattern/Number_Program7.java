@@ -1,14 +1,14 @@
 package Numbers_Pattern;
 
-//1 2 3
-//6 5 4
-//7 8 9
-//12 11 10
-//13 14 15 
+/*   1 2 3
+     6 5 4
+     7 8 9
+     12 11 10
+     13 14 15 
 
 
-//here we take r=any number, but c=always 3
-// if we change r=any number then we change k+ that number in else part in for loop
+here we take r=any number, but c=always 3
+ if we change r=any number then we change k+ that number in else part in for loop  */
 
 import java.util.Scanner;
 
