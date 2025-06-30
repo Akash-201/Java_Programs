@@ -1,12 +1,13 @@
 package Numbers_Pattern;
 
-//1
-//2 6
-//3 7 10
-//4 8 11 13
-//5 9 12 14 15
+/*  1
+    2 6
+    3 7 10
+    4 8 11 13
+    5 9 12 14 15
 
-//difference between 1st and 2nd coloumn is 4, 2nd and 3rd is 3 ,so on 2,1 
+difference between 1st and 2nd coloumn is 4, 2nd and 3rd is 3 ,so on 2,1 
+*/
 
 import java.util.Scanner;
 
