@@ -1,9 +1,9 @@
 package String.programs;
 
 
-//input: aabbbcccc
-//output: c
-//because 'c' appears 4 times, which is more than 'a' (2 times) or 'b' (3 times).
+/*  input: aabbbcccc
+   output: c
+   because 'c' appears 4 times, which is more than 'a' (2 times) or 'b' (3 times). */
 
 public class Maximum_Occurring_Character 
 {
