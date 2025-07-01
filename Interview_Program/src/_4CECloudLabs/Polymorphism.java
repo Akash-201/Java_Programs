@@ -1,6 +1,9 @@
 package _4CECloudLabs;
 
-class Student{
+// compileTime polymorphism/ static binding
+
+class Student
+{
 	public void read()
 	{
 		System.out.println("Student is reading.....");
