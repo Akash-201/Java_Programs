@@ -1,6 +1,9 @@
 package CompanyQuestions;
 
-
+/*  Write a Java program for the given string transformation:
+    Input: tomorrow
+    Output: t3m3223w
+*/
 
 public class StringTransformer
 {
