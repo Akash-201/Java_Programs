@@ -7,6 +7,8 @@ public class MinAddToMakeParenthesisValid
 	public static int minAddToMakeParenthesisValid(String str)
 	{
 		Stack<Character> stack=new Stack<>();
+		
+		/*
 		char[] ch=str.toCharArray();
 		for(int i=0;i<ch.length;i++)
 		{
@@ -26,11 +28,34 @@ public class MinAddToMakeParenthesisValid
 				stack.push(ch[i]);
 			}
 		}
+		return stack.size();  
+		*/
+		
+		
+		for(char ch : str.toCharArray())
+		{
+			if(ch==')')
+			{
+				if(!stack.isEmpty() && stack.peek()=='(')
+				{
+					stack.pop();
+				}
+				else
+				{
+					stack.push(ch);
+				}
+			}
+			else
+			{
+				stack.push(ch);
+			}
+		}
 		return stack.size();
+		
 	}
 	public static void main(String[] args)
 	{
-		String str="(()(";
+		String str="(()()((";
 		System.out.println(minAddToMakeParenthesisValid(str));
 	}
 
