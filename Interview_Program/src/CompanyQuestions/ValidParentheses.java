@@ -33,8 +33,15 @@ public class ValidParentheses
 	
 	public static void main(String[] args)
 	{
-		String str="(]";
+		String str="(]";  
+		String str2="([])";
+		String str3="()[]{}";
+		String str4="()";
+		
 		System.out.println(isValid(str));
+		System.out.println(isValid(str2));
+		System.out.println(isValid(str3));
+		System.out.println(isValid(str4));
 	}
 
 }
