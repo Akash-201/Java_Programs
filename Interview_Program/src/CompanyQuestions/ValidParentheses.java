@@ -21,23 +21,23 @@ public class ValidParentheses
 
 				char top=stack.pop();
 				if  ((ch==')' && top!='(') || 
-				     (ch=='}' && top!='{') || 
-				     (ch==']' && top!='['))
-						{
+						(ch=='}' && top!='{') || 
+						(ch==']' && top!='['))
+				{
 					return false;
-						}
+				}
 			}
 		}
 		return stack.isEmpty();
 	}
-	
+
 	public static void main(String[] args)
 	{
-		String str="(]";  
-		String str2="([])";
-		String str3="()[]{}";
-		String str4="()";
-		
+		String str="(]";  // false
+		String str2="([])";  // true
+		String str3="()[]{}"; // true
+		String str4="()";   // true
+
 		System.out.println(isValid(str));
 		System.out.println(isValid(str2));
 		System.out.println(isValid(str3));
