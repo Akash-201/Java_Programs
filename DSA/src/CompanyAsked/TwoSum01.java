@@ -34,7 +34,7 @@ Only one valid answer exists.
 
 import java.util.Arrays;
 
-public class TwoSum 
+public class TwoSum01 
 {
 	public static int[] twoSum(int[] nums, int target)
 	{
