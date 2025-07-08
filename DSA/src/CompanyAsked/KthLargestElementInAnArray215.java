@@ -1,5 +1,7 @@
 package CompanyAsked;
 
+//Leetcode: 215. Kth Largest Element in an Array
+
 import java.util.PriorityQueue;
 
 public class KthLargestElementInAnArray215
@@ -22,8 +24,8 @@ public class KthLargestElementInAnArray215
 	
 	public static void main(String[] args)
 	{
-	  int[] nums= {3,2,3,1,2,4,5,5,6};
-	  int k=4;
+	  int[] nums= {3,2,1,5,6,4};
+	  int k=2;
 	  System.out.println(findKthLargest(nums, k));
 	}
 
