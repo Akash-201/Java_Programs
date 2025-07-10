@@ -1,5 +1,7 @@
 package CompanyAsked;
 
+// LeetCode: 961 N-Repeated Element in Size 2N Array
+
 public class N_RepeatedElementInSize2N_Array961
 {
 	public static int repeatedNTimes(int[] nums) 
