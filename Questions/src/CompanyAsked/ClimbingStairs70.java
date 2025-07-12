@@ -10,7 +10,7 @@ public class ClimbingStairs70
 		}
 		int a=1;
 		int b=2;
-		
+
 		for(int i=3;i<=n;i++)
 		{
 			int temp=a+b;
@@ -19,7 +19,13 @@ public class ClimbingStairs70
 		}
 		return b;
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
+		System.out.println(climbStairs(1));
+		System.out.println(climbStairs(2));
+		System.out.println(climbStairs(3));
+		System.out.println(climbStairs(4));
+		System.out.println(climbStairs(5));
 		System.out.println(climbStairs(6));
 	}
 
