@@ -1,8 +1,8 @@
 package CompanyQuestions;
 
-public class Demo
+public class OneMismatch
 {
-	public static String findString(String[] arr, String s)
+	public static String isStringExist(String[] arr, String s)
 	{
 		int l=s.length();
 		
@@ -12,8 +12,9 @@ public class Demo
 				continue;
 			
 			int count=0;
-			if(arr[i].toCharArray()!=s.toCharArray())
+			for(int j=0;j<l;j++)
 			{
+				if(arr[i].charAt(j)!=s.charAt(j))
 				count++;
 			}
 			if(count==1)
@@ -30,7 +31,7 @@ public class Demo
 	{
 		String[] arr= {"bana","apple","banaba","bonanzo"};
 		String s="banana";
-		System.out.println(findString(arr, s));
+		System.out.println(isStringExist(arr, s));
 	}
 
 }
