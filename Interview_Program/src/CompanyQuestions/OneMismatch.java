@@ -1,5 +1,10 @@
 package CompanyQuestions;
 
+/*Given a string s and an array of strings arr, 
+return the first string from arr that has the same length as s and differs by exactly one character.
+If no such string exists, return an empty string "".
+*/
+
 public class OneMismatch
 {
 	public static String isStringExist(String[] arr, String s)
