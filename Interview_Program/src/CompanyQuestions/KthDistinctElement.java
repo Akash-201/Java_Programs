@@ -1,5 +1,10 @@
 package CompanyQuestions;
 
+/*  Given an integer array arr, return the k-th distinct element (i.e., an element that appears only once,
+in the order it appears in the array).
+If fewer than k distinct elements exist, return -1
+*/
+
 public class KthDistinctElement
 {
 	public static int distinctElement(int[] arr, int k)
