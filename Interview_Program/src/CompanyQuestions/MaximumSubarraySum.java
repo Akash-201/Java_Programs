@@ -1,5 +1,16 @@
 package CompanyQuestions;
 
+/* Given an integer array arr and an integer k, find the maximum sum of any contiguous subarray of size k.
+
+Example:
+
+Input: arr = [100, 200, 300, 400], k = 2  
+Output: 700
+
+Explanation: Subarrays of size 2 → [100,200], [200,300], [300,400]  
+Maximum sum = 300 + 400 = 700
+*/
+
 public class MaximumSubarraySum
 {
 	public static int findSubarray(int[] arr, int k)
