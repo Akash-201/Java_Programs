@@ -1,5 +1,9 @@
 package CompanyQuestions;
 
+/*   Given an array of n integers containing numbers from 0 to n (inclusive) with one number missing, 
+write a program to find the missing number.
+*/
+
 import java.util.Arrays;
 
 public class MissingNumber
