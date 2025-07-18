@@ -1,5 +1,10 @@
 package CompanyQuestions;
 
+/* Given an array of integers, find the maximum sum of any strictly ascending contiguous subarray.
+Input: [10, 20, 30, 5, 10, 20, 30]
+Output: 65 (from subarray [5, 10, 20, 30])
+*/
+
 public class MaxAscendingSum 
 {
 	public static int maxAscendingSum(int[] arr)
