@@ -40,7 +40,8 @@ public class MaximumNestingDepthOfTheParentheses1614
 		{
 			if(s.charAt(i)=='(')
 			{
-				max=Math.max(max, ++currentOpeningBracket);
+				currentOpeningBracket++;
+				max=Math.max(max, currentOpeningBracket);
 			}
 			if(s.charAt(i)==')')
 			{
