@@ -1,4 +1,4 @@
-package CompanyAsked;
+package LeetCode_Questions;
 
 /*
 Leetcode: 215. Kth Largest Element in an Array

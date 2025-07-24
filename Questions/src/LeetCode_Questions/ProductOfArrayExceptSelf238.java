@@ -1,4 +1,4 @@
-package CompanyAsked;
+package LeetCode_Questions;
 
 /* LeetCode 238. Product of Array Except Self
  Given an integer array nums, 

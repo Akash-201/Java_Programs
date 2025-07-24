@@ -1,4 +1,4 @@
-package CompanyAsked;
+package LeetCode_Questions;
 
 /*
 LeetCode: 53 Maximum Subarray

@@ -1,4 +1,4 @@
-package CompanyAsked;
+package LeetCode_Questions;
 
 /* LeetCode: 860. Lemonade Change
 
