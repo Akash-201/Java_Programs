@@ -1,5 +1,7 @@
 package LeetCode_Questions;
 
+
+
 public class CountAndSay38 
 {
 	public static String countAndSay(int n)
@@ -29,7 +31,9 @@ public class CountAndSay38
 	public static void main(String[] args)
 	{
 		int n=4;
-		System.out.println(countAndSay(n));
+		int n2=1;
+		System.out.println(countAndSay(n)); // 1211
+		System.out.println(countAndSay(n2)); // 1
 	}
 
 }
