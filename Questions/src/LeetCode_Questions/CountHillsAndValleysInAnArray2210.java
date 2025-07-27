@@ -43,9 +43,8 @@ Constraints:
 
 3 <= nums.length <= 100
 1 <= nums[i] <= 100
-		
-		
-*/		
+*/	
+
 public class CountHillsAndValleysInAnArray2210
 {
 	public static int countHillValley(int[] nums)
@@ -72,8 +71,8 @@ public class CountHillsAndValleysInAnArray2210
 	{
 		int[] nums= {2,4,1,1,6,5};
 		int[] nums2= {6,6,5,5,4,1};
-		System.out.println(countHillValley(nums));
-		System.out.println(countHillValley(nums2));
+		System.out.println(countHillValley(nums));   // 3
+		System.out.println(countHillValley(nums2));  // 0
 	}
 
 }
