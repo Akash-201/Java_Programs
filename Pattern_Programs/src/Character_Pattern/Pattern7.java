@@ -1,5 +1,13 @@
 package Character_Pattern;
 
+/*
+A F K P U 
+B G L Q V 
+C H M R W 
+D I N S X 
+E J O T Y 
+ */
+
 public class Pattern7
 {
 	public static void printPattern(int n)
@@ -16,7 +24,8 @@ public class Pattern7
 			System.out.println();
 		}
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		int n=5;
 		printPattern(n);
 	}
