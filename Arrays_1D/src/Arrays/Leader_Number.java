@@ -1,5 +1,13 @@
 package Arrays;
 
+/* A leader in an array is an element that is greater than or equal to all the elements to its right.
+
+In an array arr[], an element arr[i] is a leader if:
+
+arr[i] >= arr[i+1], arr[i+2], ..., arr[n-1]
+The rightmost element is always a leader, because there are no elements to its right.
+*/
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
