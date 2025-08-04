@@ -1,5 +1,13 @@
 package Character_Pattern;
 
+/*
+E J O T Y 
+D I N S X 
+C H M R W 
+B G L Q V 
+A F K P U 
+ */
+
 public class pattern8 
 {
 	public static void printPattern(int n)
@@ -10,7 +18,6 @@ public class pattern8
 			x=n-i;
 			for(int j=1;j<=n;j++)
 			{
-			
 				System.out.print((char)(x+65)+" ");
 				x=x+n;
 			}
