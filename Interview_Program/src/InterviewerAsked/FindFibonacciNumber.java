@@ -45,8 +45,18 @@ public class FindFibonacciNumber
 	}
 	public static void main(String[] args)
 	{
-		int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 21, 34, 55, 89, 100};
-		System.out.println(Arrays.toString(printFibonacciNumber(arr)));
+		int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 21, 34, 55,58,60, 89,95, 100};
+		
+		// in Array 
+		// System.out.println(Arrays.toString(printFibonacciNumber(arr)));
+		
+		
+		// in simple 
+		int[] res=printFibonacciNumber(arr);
+		for(int num : res)
+		{
+			System.out.print(num+" ");
+		}
 		
 	}
 
