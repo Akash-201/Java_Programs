@@ -1,6 +1,7 @@
 package InterviewerAsked;
 
-import java.sql.ResultSet;
+// Given an integer array, print only the numbers that are Fibonacci numbers. Ignore duplicates.
+
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
