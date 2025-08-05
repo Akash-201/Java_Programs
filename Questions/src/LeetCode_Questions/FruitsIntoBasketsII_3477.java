@@ -26,9 +26,13 @@ public class FruitsIntoBasketsII_3477
 	 }
 	 public static void main(String[] args) 
 	 {
-		 int[] fruits= {3,6,1};
-		 int[] baskets= {6,4,7};
-		 System.out.println(numOfUnplacedFruits(fruits, baskets));
+		 int[] fruits= {4,2,5};
+		 int[] baskets= {3,5,4};
+		 
+		 int[] fruits2= {3,6,1};
+		 int[] baskets2= {6,4,7};
+		 System.out.println(numOfUnplacedFruits(fruits, baskets)); // 1
+		 System.out.println(numOfUnplacedFruits(fruits2, baskets2)); // 0
 		
 	}
 
