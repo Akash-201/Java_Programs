@@ -1,12 +1,17 @@
 package CompanyQuestions;
 
+/* Given a sorted array of non-negative integers and a number k,
+find and return the number from the array whose square equals k using binary search.
+If no such number exists, return -1.
+ */
+
 public class FindSquareRoot
 {
 	public static int findNumber(int[] arr, int k)
 	{
 		int min=0;
 		int max=arr.length-1;
-		
+
 		while(min<=max)
 		{
 			int middle=(min+max)/2;
@@ -17,14 +22,14 @@ public class FindSquareRoot
 			}
 			else if(square > k)
 			{
-				  max = middle - 1;
+				max = middle - 1;
 			}
 			else
 			{
 				min=middle+1;
 			}
-			
-			
+
+
 		}
 		return -1;
 	}
