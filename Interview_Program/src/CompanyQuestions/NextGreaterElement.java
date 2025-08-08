@@ -1,5 +1,9 @@
 package CompanyQuestions;
 
+/* Given an array of integers, for each element in the array, find the next greater element to its right.
+If no such element exists, return -1 for that position.
+*/
+
 import java.util.Arrays;
 
 public class NextGreaterElement 
