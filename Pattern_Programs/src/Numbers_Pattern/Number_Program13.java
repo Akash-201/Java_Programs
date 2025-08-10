@@ -1,4 +1,11 @@
 package Numbers_Pattern;
+/*
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0 
+*/
 
 public class Number_Program13 
 {
