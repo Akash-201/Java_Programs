@@ -1,5 +1,10 @@
 package CompanyQuestions;
 
+/* You are given an array of positive integers arr and a target integer target.
+Find the start and end indexes (0-based) of a continuous subarray that adds up exactly to target.
+If no such subarray exists, return [-1, -1].
+*/
+
 import java.util.Arrays;
 
 public class IndexesOfSubArraySum 
@@ -23,8 +28,8 @@ public class IndexesOfSubArraySum
 		return new int[] {-1,-1};
 	}
 	public static void main(String[] args) {
-		int[] arr= {1,2,3,7,5};
-		int target=12;
+		int[] arr= {1, 4, 20, 3, 10, 5};
+		int target=33;
 		System.out.println(Arrays.toString(subArraySumPositive(arr, target)));
 	}
 
