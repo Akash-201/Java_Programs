@@ -17,7 +17,9 @@ public class CamelCase
 	 public static void main(String[] args) 
 	 {
 		 String s="oneTwoThree";
-		 System.out.println(camelcase(s));
+		 String s2="saveChangesInTheEditor";
+		 System.out.println(camelcase(s)); //3
+		 System.out.println(camelcase(s2)); //5
 		
 	}
 
