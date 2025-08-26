@@ -1,5 +1,7 @@
 package LeetCode_Questions;
 
+// LeetCode: 3000. Maximum Area of Longest Diagonal Rectangle
+
 public class MaximumAreaOfLongestDiagonalRectangle3000 
 {
 	public static int areaOfMaxDiagonal(int[][] dimensions)
@@ -29,7 +31,9 @@ public class MaximumAreaOfLongestDiagonalRectangle3000
 	}
 	public static void main(String[] args) {
 		int [][] dimensions= {{9,3},{8,6}};
-		System.out.println(areaOfMaxDiagonal(dimensions));
+		int [][] dimensions2= {{3,4},{4,3}};
+		System.out.println(areaOfMaxDiagonal(dimensions)); //48
+		System.out.println(areaOfMaxDiagonal(dimensions2)); //12
 	}
 
 }
