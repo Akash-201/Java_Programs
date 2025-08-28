@@ -27,8 +27,7 @@ public class DiagonalDifference
 				Arrays.asList(10, 8, -12)
 				);
 
-		int result = diagonalDifference(arr);
-		System.out.println(result); 
+		System.out.println(diagonalDifference(arr)); 
 
 	}
 
