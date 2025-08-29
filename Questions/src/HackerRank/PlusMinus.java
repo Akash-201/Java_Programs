@@ -11,7 +11,7 @@ public class PlusMinus
 		int positive=0;
 		int negative=0;
 		int zero=0;
-		
+
 		for(int num : arr)
 		{
 			if(num>0)
