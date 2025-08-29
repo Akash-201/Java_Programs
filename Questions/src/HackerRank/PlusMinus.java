@@ -18,7 +18,7 @@ public class PlusMinus
 			{
 				positive++;
 			}
-			if(num<0)
+			else if(num<0)
 			{
 				negative++;
 			}
@@ -32,8 +32,11 @@ public class PlusMinus
 		System.out.println(zero/n);
 	}
 	public static void main(String[] args) {
-		List<Integer> arr= Arrays.asList(1,1,0,-1,-1);
+		List<Integer> arr= Arrays.asList(-4,3,-9,0,4,1); // 0.5   0.3333333333333333   0.16666666666666666
+		List<Integer> arr2= Arrays.asList(1,1,0,-1,-1); // 0.4    0.4   0.2
 		plusMinus(arr);
+		System.out.println();
+		plusMinus(arr2);
 	}
 
 }
