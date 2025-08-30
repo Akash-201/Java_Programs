@@ -27,10 +27,10 @@ public class BirthdayCakeCandles
 	{
 		List<Integer> candles=Arrays.asList(4,4,1,3);
 		List<Integer> candles2=Arrays.asList(3,2,3,1,3);
-		
+
 		System.out.println(birthdayCakeCandles(candles));  // 2
 		System.out.println(birthdayCakeCandles(candles2)); // 3
-		
+
 	}
 
 }
