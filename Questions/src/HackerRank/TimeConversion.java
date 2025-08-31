@@ -20,7 +20,9 @@ public class TimeConversion
 	}
 	public static void main(String[] args) {
 		String s="12:01:00AM";
-		System.out.println(timeConversion(s));
+		String s2="12:01:00PM";
+		System.out.println(timeConversion(s));  // 00:01:00
+		System.out.println(timeConversion(s2)); // 12:01:00
 	}
 
 
