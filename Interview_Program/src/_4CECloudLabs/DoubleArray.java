@@ -2,7 +2,7 @@ package _4CECloudLabs;
 
 import java.util.Arrays;
 
-public class DoubleSizableArray 
+public class DoubleArray 
 {
 	public static int[] printArray(int[] arr)
 	{
