@@ -18,7 +18,7 @@ public class DoubleArray
 	{
 		int[] arr= {1,2,3};
 		int[] result=printArray(arr);
-		System.out.println(Arrays.toString(result));
+		System.out.println(Arrays.toString(result)); // [1,2,3,1,2,3]
 	}
 
 }
