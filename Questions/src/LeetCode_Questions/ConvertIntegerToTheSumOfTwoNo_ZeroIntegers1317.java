@@ -1,5 +1,7 @@
 package LeetCode_Questions;
 
+// Leetcode: 1317. Convert Integer to the Sum of Two No-Zero Integers
+
 import java.util.Arrays;
 
 public class ConvertIntegerToTheSumOfTwoNo_ZeroIntegers1317
@@ -31,8 +33,9 @@ public class ConvertIntegerToTheSumOfTwoNo_ZeroIntegers1317
 	}
 	public static void main(String[] args) 
 	{
-		int n=11;
-		System.out.println(Arrays.toString(getNoZeroIntegers(n)));
+
+		System.out.println(Arrays.toString(getNoZeroIntegers(11)));  // [2, 9]
+		System.out.println(Arrays.toString(getNoZeroIntegers(2)));  // [1, 1]
 
 	}
 
