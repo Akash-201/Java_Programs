@@ -17,7 +17,7 @@ public class PatternSyntaxChecker
 			try 
 			{
 				Pattern.compile(pattern);
-		
+
 				System.out.println("Valid");
 			} 
 			catch (PatternSyntaxException e) 
