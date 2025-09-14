@@ -1,5 +1,27 @@
 package InterviewerAsked;
 
+/*
+Write a Java program that takes a sentence as input and capitalizes the 4th character of each word in that sentence.
+
+For example:
+
+Input:
+this is a sample sentence
+
+Output:
+thiS is a samPle senTence
+
+Explanation:
+
+In "this", the 4th character 's' is capitalized → "thiS"
+
+In "sample", the 4th character 'p' is capitalized → "samPle"
+
+In "sentence", the 4th character 't' is capitalized → "senTence"
+
+Words with less than 4 characters (like "is", "a") remain unchanged.
+ */
+
 public class CapitalizesThe4thCharacterOfEachWord 
 {
 	public static void capitalizeWord(String str)
