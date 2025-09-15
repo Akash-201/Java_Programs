@@ -1,5 +1,7 @@
 package LeetCode_Questions;
 
+//  Leetcode: 1935. Maximum Number of Words You Can Type
+
 public class MaximumNumberOfWordsYouCanType1935 
 {
 	public static int canBeTypedWords(String text, String brokenLetters)
