@@ -10,24 +10,31 @@ public class ElementsWithMaximumFrequency3005
 		Map<Integer, Integer> freq = new HashMap<>();
 		int maxFreq =0;
 
-		for (int num : nums) {
+		for (int num : nums) 
+		{
 			int count = freq.getOrDefault(num, 0) + 1;
 			freq.put(num, count);
 			maxFreq = Math.max(maxFreq, count);
 		}
 
 		int result = 0;
-		for (int value : freq.values()) {
-			if (value == maxFreq) {
+		for (int value : freq.values())
+		{
+			if (value == maxFreq)
+			{
 				result += value;
 			}
 		}
 
 		return result;
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int[] nums= {1,2,2,3,1,4};
-		System.out.println(maxFrequencyElements(nums));
+		System.out.println(maxFrequencyElements(nums));  // 4
+
+		int[] nums2= {1,2,3,4,5};
+		System.out.println(maxFrequencyElements(nums2)); // 5
 	}
 
 }
