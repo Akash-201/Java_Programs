@@ -1,10 +1,13 @@
 package LeetCode_Questions;
 
+// LeetCode: 976. Largest Perimeter Triangle
+
 import java.util.Arrays;
 
 public class LargestPerimeterTriangle976 
 {
-	public static int largestPerimeter(int[] nums) {
+	public static int largestPerimeter(int[] nums) 
+	{
         Arrays.sort(nums);
         int longestParameter=0;
         for(int i=0;i<nums.length-2;i++)
@@ -17,9 +20,13 @@ public class LargestPerimeterTriangle976
         }
         return longestParameter;
     }
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int[] nums={2,1,2};
-		System.out.println(largestPerimeter(nums));
+		System.out.println(largestPerimeter(nums));  // 5
+		
+		int[] nums2={1,2,1,10};
+		System.out.println(largestPerimeter(nums2));  // 0
 	}
 
 }
