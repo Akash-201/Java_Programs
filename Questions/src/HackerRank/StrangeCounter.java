@@ -19,7 +19,7 @@ public class StrangeCounter
 	}
 	public static void main(String[] args) 
 	{
-		System.out.println(strangeCounter(4));
+		System.out.println(strangeCounter(4));  // 6
 	}
 
 }

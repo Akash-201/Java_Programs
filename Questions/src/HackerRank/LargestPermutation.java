@@ -44,7 +44,7 @@ public class LargestPermutation
 	public static void main(String[] args) 
 	{
 		List<Integer> arr=Arrays.asList(4, 2, 3, 5, 1);
-		System.out.println(largestPermutation(1, arr));
+		System.out.println(largestPermutation(1, arr));  // [5, 2, 3, 4, 1]
 		
 	}
 }

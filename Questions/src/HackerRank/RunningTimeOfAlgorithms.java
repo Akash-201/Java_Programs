@@ -20,7 +20,7 @@ public class RunningTimeOfAlgorithms
 			{
 				arr.set(j + 1, arr.get(j));
 				j--;
-				shifts++; // count each shift
+				shifts++; 
 			}
 
 			arr.set(j + 1, value);

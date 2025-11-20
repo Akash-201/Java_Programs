@@ -33,6 +33,6 @@ public class CorrectnessAndTheLoopInvariant
 	public static void main(String[] args) 
 	{
 		int[] A= {7,4,3,5,6,2};
-		insertionSort(A);
+		insertionSort(A);  //  2 3 4 5 6 7 
 	}
 }
