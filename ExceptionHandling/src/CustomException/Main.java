@@ -16,7 +16,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		int age=18;
+		int age=14;
 		try 
 		{
 			if(age<18)
