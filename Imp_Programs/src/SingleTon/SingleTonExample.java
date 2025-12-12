@@ -1,34 +1,40 @@
 package SingleTon;
-class Samosa
+
+class SingleTonClasssExample
 {
-	private static Samosa samosa;
+	static SingleTonClasssExample instance;
 	
-	private Samosa()
+	
+	private SingleTonClasssExample()
 	{
-		
+		System.out.println("Singleton object is created...");
 	}
 	
-	// lazy way to creating singleton object 
-	public static Samosa getSamosa()
+	public static SingleTonClasssExample getInstance()
 	{
-		if(samosa==null)
+		if(instance==null)
 		{
-			samosa=new Samosa();
+			instance= new SingleTonClasssExample();
 		}
-		return samosa;
+		return instance;
 	}
 }
 
+
 public class SingleTonExample
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-		Samosa samosa1=Samosa.getSamosa();
-		System.out.println(samosa1.hashCode());
+		SingleTonClasssExample s1=SingleTonClasssExample.getInstance();
+		System.out.println(s1.hashCode());
 		
-		Samosa samosa2=Samosa.getSamosa();
-		System.out.println(samosa2.hashCode());
+		SingleTonClasssExample s2=SingleTonClasssExample.getInstance();
+		System.out.println(s2.hashCode());
 		
+		System.out.println(s1==s2);
+		
+		System.out.println(s1.toString());
+		System.out.println(s2.toString());
 		
 	}
 
