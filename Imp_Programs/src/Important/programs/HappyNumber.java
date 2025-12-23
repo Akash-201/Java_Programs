@@ -32,10 +32,8 @@ public class HappyNumber
 
 	public static void main(String[] args) 
 	{
-		System.out.println(isHappyNumber(19));
-		System.out.println(isHappyNumber(2));
-		System.out.println(isHappyNumber(81));
-		
-		
+		System.out.println(isHappyNumber(19));  // true
+		System.out.println(isHappyNumber(2));  // false
+		System.out.println(isHappyNumber(81)); // false
 	}
 }
